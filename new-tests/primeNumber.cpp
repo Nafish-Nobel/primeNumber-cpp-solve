@@ -10,9 +10,14 @@ int main()
     while(i<n){
         if (n%i==0)
         {
-            cout<< "Not prime"<<endl; 
+            cout<< "Not prime for "<< i <<endl; 
+        }
+        else
+        {
+            cout<< "prime for " << i <<endl;
         }
         
-        i= i+1;
+        
+        i= i + 1;
     }
 }

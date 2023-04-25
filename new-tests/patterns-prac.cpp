@@ -4,24 +4,51 @@ using namespace std;
 int main(){
 
     int n;
-    cin>> n;
+    cin>>n;
 
     int row = 1;
-    while (row <= n)
-    {
+    
+    while (row <= n){
        int col = 1;
 
-       while (col <= n)
-       {
-        char ch = 'A' + row - 1;
-        cout<< ch;
+       while (col <= n){
+        char ch = ('A' + row + col - 2);
+        cout<<ch;
         col = col + 1;
        }
-       
-    }
-    cout<<endl;
+       cout<<endl;
     row = row + 1 ;
+    }
+    return 0;
+}
+
+
+
+
+
+
+//4*************6*******************************//
+
+// int main(){
+
+//     int n;
+//     cin>>n;
+
+//     int row = 1;
     
+//     while (row <= n){
+//        int col = 1;
+
+//        while (col <= n){
+//         char ch = 'A' + row - 1;
+//         cout<<ch;
+//         col = col + 1;
+//        }
+//        cout<<endl;
+//     row = row + 1 ;
+//     }
+//     return 0;
+// }
 
 
 
@@ -41,7 +68,7 @@ int main(){
 
 
 
-//********************************************//
+//3****************3****************************//
 
 
     // int n;
@@ -77,7 +104,7 @@ int main(){
 
 
 
-//********************************************//
+//2*****************2***************************//
 
     // int n;
     // cout<< "enter your number: " <<endl;
@@ -100,7 +127,7 @@ int main(){
     // }
 
 
-//********************************************//
+//1******************1**************************//
 
     // int n;
     // cout<< "enter your number: " <<endl;
@@ -123,4 +150,3 @@ int main(){
 
     //********************************************//
     
-}

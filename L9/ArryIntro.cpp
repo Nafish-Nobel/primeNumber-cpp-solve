@@ -20,6 +20,6 @@ int main(){
     int second[3]={5,7,11};
     cout<< "value at 2 index: " <<second[2] <<endl;
 
-
+    
 
 }

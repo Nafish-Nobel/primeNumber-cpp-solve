@@ -1,9 +1,25 @@
 #include<iostream>
 using namespace std;
 
-
+void printArry(int arr[], int n){
+    for (int i = 0; i < n; i++)
+    {
+        cout << arr[i] << " ";
+    }
+    cout<<endl;
+}
 
 
 int main(){
 
+    int arr[6] = {1,4,0,5,-2,15};
+    int brr[5] = {2,6,3,9,4};
+
+    reverse(arr, 6);
+    reverse(brr, 5);
+
+    printArry(arr, 6);
+    printArry(brr, 5);
+
+    return 0;
 }

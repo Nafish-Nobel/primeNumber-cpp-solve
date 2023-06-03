@@ -16,6 +16,7 @@ void swapAlternates(int arr[], int size){
     }
     
 }
+
 //print function
 void printArry(int arr[], int n){
     for (int i = 0; i < n; i++)

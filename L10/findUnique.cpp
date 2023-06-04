@@ -1,3 +1,5 @@
+//Find Unique element [https://bit.ly/3y01Zdu ]
+
 int findUnique(int *arr, int size)
 {
     int ans = 0;

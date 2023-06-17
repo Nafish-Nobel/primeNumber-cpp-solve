@@ -35,9 +35,9 @@ int main(){
     int odd[5]={3,6,11,14,16};
 
     int evenIndex = binarySearch(even, 6, 2);
-    cout<< "Index of 6 is "<< evenIndex << endl;
+    cout<< "Index of 0 is "<< evenIndex << endl;
     int oddIndex = binarySearch(odd, 5, 3);
-    cout<< "Index of 5 is "<< oddIndex << endl;
+    cout<< "Index of 0 is "<< oddIndex << endl;
 
     return 0;
 }
